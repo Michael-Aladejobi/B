@@ -129,7 +129,20 @@ img {
     color: var(--title-color);
     cursor: pointer;
 }
-
+.nav__button-link {
+    transition: 0.5s;
+}
+.nav__button-link:hover {
+    background-color: hsla(0, 0%, 100%, 0.3);
+    padding: 1rem 2.5rem;
+    border: 2px solid var(--title-color);
+    border-radius: 0.75rem;
+    transition: 0.5s;
+}
+.nav__button-ghost:hover {
+    padding: 1rem 2.9rem;
+    transition: 0.5s;
+}
 /* Navigation for mobile devices */
 @media screen and (max-width: 1023px) {
     .nav__menu {
@@ -181,6 +194,7 @@ img {
     padding: 1rem 2.5rem;
     border: 2px solid var(--title-color);
     border-radius: 0.75rem;
+    transition: 0.5s;
 }
 
 .nav__close {
@@ -401,6 +415,6 @@ img {
     }
 }
 
-.maintenance{
+.maintenance {
     text-align: center;
 }
