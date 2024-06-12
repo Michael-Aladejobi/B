@@ -143,6 +143,15 @@ img {
     padding: 1rem 2.9rem;
     transition: 0.5s;
 }
+
+/* HOME PAGE */
+
+/* three boxes on nav bar */
+#nav__button-ghost_ {
+    padding: 5px 30px;
+    cursor: none;
+}
+
 /* Navigation for mobile devices */
 @media screen and (max-width: 1023px) {
     .nav__menu {
